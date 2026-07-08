@@ -1,0 +1,50 @@
+[
+  {
+    "id": "f1",
+    "category": "SRS",
+    "question": "What is the Social Reputation Score (SRS)?",
+    "answer": "SRS is Nrture.ai's normalized score that combines review rating, response speed, response quality, and recent trend movement into a single benchmark number."
+  },
+  {
+    "id": "f2",
+    "category": "SRS",
+    "question": "How often is SRS updated?",
+    "answer": "SRS refreshes continuously as new reviews are ingested and responses are published, so your team always works from current performance."
+  },
+  {
+    "id": "f3",
+    "category": "Elara",
+    "question": "How does Elara keep responses on-brand?",
+    "answer": "Elara follows your tone rules, templates, and approval policies. You can review, edit, and approve before publishing at any time."
+  },
+  {
+    "id": "f4",
+    "category": "Elara",
+    "question": "Can a human override Elara's responses?",
+    "answer": "Yes. Teams can manually edit drafts, request rewrites, or pause autopilot for sensitive locations and specific review categories."
+  },
+  {
+    "id": "f5",
+    "category": "Benchmarking",
+    "question": "How does peer benchmarking work?",
+    "answer": "Nrture.ai groups comparable businesses by category and geography, then compares your SRS, review volume, and response behavior against that cohort."
+  },
+  {
+    "id": "f6",
+    "category": "Reports",
+    "question": "What is included in quarterly reports?",
+    "answer": "Quarterly reports include outlet-level trends, benchmark deltas, recurring issue themes, and prioritized actions for the next quarter."
+  },
+  {
+    "id": "f7",
+    "category": "Reports",
+    "question": "Can we export reports by outlet and quarter?",
+    "answer": "Yes. You can filter by year, quarter, and outlet, then export management-ready PDFs and shareable report links."
+  },
+  {
+    "id": "f8",
+    "category": "Security",
+    "question": "Is reputation data secure and compliant?",
+    "answer": "Nrture.ai provides encrypted data handling, role-based access controls, and enterprise-grade operational safeguards for multi-location reputation programs."
+  }
+]

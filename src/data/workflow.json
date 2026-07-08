@@ -1,0 +1,44 @@
+{
+  "steps": [
+    {
+      "id": "capture",
+      "step": 1,
+      "icon": "MessageSquare",
+      "title": "Capture every review",
+      "description": "Collect new reviews from all connected listings in one unified queue."
+    },
+    {
+      "id": "score",
+      "step": 2,
+      "icon": "LineChart",
+      "title": "Track SRS and peers",
+      "description": "Update your Social Reputation Score and compare performance against similar competitors."
+    },
+    {
+      "id": "respond",
+      "step": 3,
+      "icon": "Bot",
+      "title": "Respond with Elara",
+      "description": "Elara drafts context-aware responses with your brand tone and policy guardrails."
+    },
+    {
+      "id": "report",
+      "step": 4,
+      "icon": "BarChart3",
+      "title": "Deliver quarterly reports",
+      "description": "Export executive-ready reports for every outlet with trends, risks, and action priorities."
+    }
+  ],
+  "sampleAutomation": {
+    "name": "Review response workflow",
+    "trigger": { "type": "event", "label": "New review received" },
+    "nodes": [
+      { "id": "n1", "type": "condition", "label": "Rating below 3 stars?" },
+      { "id": "n2", "type": "action", "label": "Elara drafts priority response", "channel": "reviews" },
+      { "id": "n3", "type": "delay", "label": "Wait for manager approval" },
+      { "id": "n4", "type": "action", "label": "Publish response", "channel": "reviews" },
+      { "id": "n5", "type": "action", "label": "Update SRS trend board", "channel": "analytics" },
+      { "id": "n6", "type": "exit", "label": "Mark review resolved" }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "currency": "USD",
+  "currencySymbol": "$",
+  "billingNote": "Simple monthly plans for every stage of reputation intelligence.",
+  "plans": [
+    {
+      "id": "lite",
+      "name": "Lite",
+      "description": "Ideal for single-outlet owners taking their first confident step into visitor intelligence.",
+      "priceMonthly": 59,
+      "priceLabel": null,
+      "popular": false,
+      "badge": null,
+      "highlights": [
+        "Elara — AI Social Reputation Manager"
+      ],
+      "cta": { "label": "Start Lite", "href": "/contact" }
+    },
+    {
+      "id": "lite-plus",
+      "name": "Lite+",
+      "description": "Perfect for operators ready to see beyond their own walls.",
+      "priceMonthly": 149,
+      "priceLabel": null,
+      "popular": true,
+      "badge": "Recommended",
+      "highlights": [
+        "Everything in Lite",
+        "Emotion-to-Spend Intelligence Report",
+        "Peer Benchmarking Report"
+      ],
+      "cta": { "label": "Upgrade to Lite+", "href": "/contact" }
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "description": "For operators who want deeper insight and answers that guide improvement.",
+      "priceMonthly": 249,
+      "priceLabel": null,
+      "popular": false,
+      "badge": null,
+      "highlights": [
+        "Everything in Lite+",
+        "Social Reputation Dashboard",
+        "Conversational AI — Ask Elara Anything",
+        "Real-time Survey Integration"
+      ],
+      "cta": { "label": "Choose Pro", "href": "/contact" }
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "description": "For networks that need unified intelligence and the capacity to raise standards at scale.",
+      "priceMonthly": null,
+      "priceLabel": "Custom",
+      "popular": false,
+      "badge": null,
+      "highlights": [
+        "Everything in Pro",
+        "Strategic + Enterprise Intelligence"
+      ],
+      "cta": { "label": "Contact Us", "href": "/contact" }
+    }
+  ],
+  "comparison": [
+    {
+      "feature": "Elara — AI Social Reputation Manager",
+      "lite": true,
+      "lite-plus": true,
+      "pro": true,
+      "enterprise": true
+    },
+    {
+      "feature": "Emotion-to-Spend Intelligence Report",
+      "lite": false,
+      "lite-plus": true,
+      "pro": true,
+      "enterprise": true
+    },
+    {
+      "feature": "Peer Benchmarking Report",
+      "lite": false,
+      "lite-plus": true,
+      "pro": true,
+      "enterprise": true
+    },
+    {
+      "feature": "Social Reputation Dashboard",
+      "lite": false,
+      "lite-plus": false,
+      "pro": true,
+      "enterprise": true
+    },
+    {
+      "feature": "Conversational AI — Ask Elara Anything",
+      "lite": false,
+      "lite-plus": false,
+      "pro": true,
+      "enterprise": true
+    },
+    {
+      "feature": "Real-time Survey Integration",
+      "lite": false,
+      "lite-plus": false,
+      "pro": true,
+      "enterprise": true
+    },
+    {
+      "feature": "Strategic + Enterprise Intelligence",
+      "lite": false,
+      "lite-plus": false,
+      "pro": false,
+      "enterprise": true
+    }
+  ]
+}

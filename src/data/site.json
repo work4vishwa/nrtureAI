@@ -1,0 +1,76 @@
+{
+  "name": "Nrture.ai",
+  "logo": "/logo/nrture-ai.png",
+  "logoIcon": "/logo/nrture-ai.png",
+  "tagline": "AI-powered reputation management for modern teams",
+  "meta": {
+    "title": "Nrture.ai — AI reputation management with Elara",
+    "description": "Track SRS, benchmark peers, run quarterly reports, and automate review responses with Elara."
+  },
+  "nav": [
+    { "label": "Features", "href": "/features" },
+    { "label": "Pricing", "href": "/pricing" },
+    { "label": "Dashboard", "href": "/dashboard" },
+    { "label": "About", "href": "/about" }
+  ],
+  "cta": { "label": "Book a demo", "href": "/contact" },
+  "social": [
+    { "label": "X", "href": "https://x.com/nrtureai", "icon": "twitter" },
+    { "label": "GitHub", "href": "https://github.com/nrtureai", "icon": "github" },
+    { "label": "LinkedIn", "href": "https://linkedin.com/company/nrtureai", "icon": "linkedin" }
+  ],
+  "contact": {
+    "title": "Contact us",
+    "description": "Tell us about your outlets and reputation goals. Our team will reach out to schedule a demo and answer your questions.",
+    "successTitle": "Message sent",
+    "successMessage": "Thanks for reaching out. We'll get back to you within one business day.",
+    "submitLabel": "Send message"
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Stay in the loop",
+      "description": "Product updates, AI tips, and growth playbooks — no spam, unsubscribe anytime.",
+      "placeholder": "you@company.com",
+      "buttonLabel": "Subscribe",
+      "successMessage": "You're subscribed! Check your inbox to confirm."
+    },
+    "columns": [
+      {
+        "title": "Product",
+        "links": [
+          { "label": "Features", "href": "/features" },
+          { "label": "Pricing", "href": "/pricing" },
+          { "label": "Dashboard", "href": "/dashboard" },
+          { "label": "Changelog", "href": "#" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About", "href": "/about" },
+          { "label": "Blog", "href": "#" },
+          { "label": "Careers", "href": "#" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Documentation", "href": "#" },
+          { "label": "API reference", "href": "#" },
+          { "label": "Status", "href": "#" },
+          { "label": "Support", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy", "href": "#" },
+          { "label": "Terms", "href": "#" },
+          { "label": "Security", "href": "#" },
+          { "label": "Cookies", "href": "#" }
+        ]
+      }
+    ]
+  }
+}

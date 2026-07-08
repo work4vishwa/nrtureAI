@@ -1,0 +1,68 @@
+[
+  {
+    "id": "t1",
+    "quote": "Nrture.ai cut our first-response time by 80%. Our AI agents now handle the entire top of funnel while the team focuses on closing.",
+    "author": "Jordan Lee",
+    "role": "Head of Growth",
+    "companyId": "northwind",
+    "company": "Northwind",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": "t2",
+    "quote": "The predictive insights are scary good. We consistently reach the right accounts at the right moment and conversion is up 34%.",
+    "author": "Priya Nair",
+    "role": "VP Marketing",
+    "companyId": "vertex-labs",
+    "company": "Vertex Labs",
+    "avatar": "https://i.pravatar.cc/150?img=45",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": "t3",
+    "quote": "We replaced three tools with Nrture.ai. The unified inbox alone saved our support team hours every single day.",
+    "author": "Marcus Webb",
+    "role": "Director of CX",
+    "companyId": "brightwave",
+    "company": "Brightwave",
+    "avatar": "https://i.pravatar.cc/150?img=33",
+    "rating": 5,
+    "featured": false
+  },
+  {
+    "id": "t4",
+    "quote": "Onboarding was live in a week. The visual workflow builder let us ship complex nurture journeys without engineering.",
+    "author": "Sofia Rossi",
+    "role": "Lifecycle Marketing Lead",
+    "companyId": "lumina",
+    "company": "Lumina",
+    "avatar": "https://i.pravatar.cc/150?img=5",
+    "rating": 4,
+    "featured": false
+  },
+  {
+    "id": "t5",
+    "quote": "Security review was painless — SOC 2 and SSO checked every box our compliance team had. Adoption across the org was instant.",
+    "author": "Daniel Kim",
+    "role": "CTO",
+    "companyId": "nimbus",
+    "company": "Nimbus",
+    "avatar": "https://i.pravatar.cc/150?img=68",
+    "rating": 5,
+    "featured": false
+  },
+  {
+    "id": "t6",
+    "quote": "The AI agents feel genuinely on-brand. Customers regularly thank us for the fast, helpful replies — day or night.",
+    "author": "Amara Okafor",
+    "role": "Customer Success Manager",
+    "companyId": "quantify",
+    "company": "Quantify",
+    "avatar": "https://i.pravatar.cc/150?img=47",
+    "rating": 5,
+    "featured": false
+  }
+]

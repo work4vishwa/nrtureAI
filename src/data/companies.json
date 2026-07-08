@@ -1,0 +1,10 @@
+[
+  { "id": "northwind", "name": "Northwind", "domain": "northwind.com", "industry": "SaaS", "logo": null },
+  { "id": "vertex-labs", "name": "Vertex Labs", "domain": "vertexlabs.io", "industry": "AI / ML", "logo": null },
+  { "id": "brightwave", "name": "Brightwave", "domain": "brightwave.co", "industry": "Fintech", "logo": null },
+  { "id": "lumina", "name": "Lumina", "domain": "lumina.app", "industry": "E-commerce", "logo": null },
+  { "id": "nimbus", "name": "Nimbus", "domain": "nimbus.cloud", "industry": "DevTools", "logo": null },
+  { "id": "quantify", "name": "Quantify", "domain": "quantify.ai", "industry": "Analytics", "logo": null },
+  { "id": "orbital", "name": "Orbital", "domain": "orbital.space", "industry": "Logistics", "logo": null },
+  { "id": "flowbase", "name": "Flowbase", "domain": "flowbase.io", "industry": "Marketing", "logo": null }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "srs",
+    "icon": "LineChart",
+    "title": "SRS (Social Reputation Score)",
+    "description": "Track your live Social Reputation Score across locations and channels with a single, always-updated health indicator.",
+    "badge": "Core",
+    "category": "analytics"
+  },
+  {
+    "id": "peer-benchmarking",
+    "icon": "Users",
+    "title": "Peer Benchmarking",
+    "description": "Compare your reputation performance with similar brands in your category to spot gaps and opportunities faster.",
+    "badge": null,
+    "category": "analytics"
+  },
+  {
+    "id": "reputation-dashboard",
+    "icon": "Inbox",
+    "title": "Social Reputation Dashboard",
+    "description": "Monitor SRS, review trends, and outlet performance in one live dashboard built for fast, confident decisions.",
+    "badge": null,
+    "category": "analytics"
+  },
+  {
+    "id": "quarterly-reports",
+    "icon": "BarChart3",
+    "title": "Quarterly Reports",
+    "description": "Generate executive-ready quarterly reputation reports with trend summaries, wins, and priorities for the next cycle.",
+    "badge": null,
+    "category": "reporting"
+  },
+  {
+    "id": "review-responses",
+    "icon": "MessageSquare",
+    "title": "Review Responses",
+    "description": "Manage and publish response workflows quickly with approval controls, templates, and unified review handling.",
+    "badge": null,
+    "category": "engagement"
+  },
+  {
+    "id": "conversational-ai-elara",
+    "icon": "Bot",
+    "title": "Conversational AI (Elara)",
+    "description": "Elara drafts context-aware responses, adapts tone to your brand, and keeps every conversation timely and consistent.",
+    "badge": "Elara",
+    "category": "automation"
+  }
+]

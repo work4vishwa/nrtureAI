@@ -1,0 +1,67 @@
+{
+  "period": "Last 30 days",
+  "kpis": [
+    { "id": "review-volume", "label": "Reviews captured", "value": 1295, "prefix": "", "delta": 9.2, "trend": "up", "spark": [890, 930, 972, 1018, 1082, 1140, 1216, 1295] },
+    { "id": "srs-score", "label": "Social Reputation Score", "value": 78, "prefix": "", "suffix": "/100", "delta": 4.6, "trend": "up", "spark": [63, 65, 67, 68, 71, 73, 76, 78] },
+    { "id": "on-time-responses", "label": "On-time responses", "value": 91, "prefix": "", "suffix": "%", "delta": 6.3, "trend": "up", "spark": [79, 81, 82, 85, 86, 88, 90, 91] },
+    { "id": "draft-acceptance", "label": "Elara draft acceptance", "value": 84, "prefix": "", "suffix": "%", "delta": 3.1, "trend": "up", "spark": [71, 73, 75, 76, 78, 80, 82, 84] }
+  ],
+  "revenueSeries": {
+    "label": "SRS trend over time",
+    "unit": "Score",
+    "suffix": "/100",
+    "ariaLabel": "Line chart of monthly Social Reputation Score trending upward",
+    "points": [
+      { "month": "Jan", "value": 63 },
+      { "month": "Feb", "value": 65 },
+      { "month": "Mar", "value": 67 },
+      { "month": "Apr", "value": 68 },
+      { "month": "May", "value": 71 },
+      { "month": "Jun", "value": 73 },
+      { "month": "Jul", "value": 76 },
+      { "month": "Aug", "value": 78 }
+    ]
+  },
+  "channelBreakdown": [
+    { "channel": "Google", "value": 53, "color": "#0891b2" },
+    { "channel": "Zomato", "value": 21, "color": "#06b6d4" },
+    { "channel": "Swiggy", "value": 16, "color": "#6366f1" },
+    { "channel": "In-app survey", "value": 10, "color": "#67e8f9" }
+  ],
+  "goals": [
+    { "id": "raise-srs", "label": "Raise average SRS", "current": 78, "target": 82, "suffix": "/100" },
+    { "id": "sla", "label": "First-response SLA", "current": 91, "target": 95, "suffix": "%" },
+    { "id": "benchmark-win-rate", "label": "Peer benchmark win rate", "current": 67, "target": 75, "suffix": "%" }
+  ],
+  "automations": [
+    { "id": "au1", "name": "Negative review first response", "status": "active", "runs": 512, "successRate": 94 },
+    { "id": "au2", "name": "Missed-review escalation", "status": "active", "runs": 186, "successRate": 92 },
+    { "id": "au3", "name": "Elara draft + manager approval", "status": "paused", "runs": 138, "successRate": 89 },
+    { "id": "au4", "name": "Duplicate feedback triage", "status": "error", "runs": 37, "successRate": 61 }
+  ],
+  "agentPerformance": [
+    { "id": "agent-elara", "name": "Elara", "resolved": 1248, "avgResponse": "17m", "satisfaction": 94 },
+    { "id": "agent-benchmark", "name": "Benchmark Copilot", "resolved": 522, "avgResponse": "26m", "satisfaction": 91 },
+    { "id": "agent-reports", "name": "Reports Assistant", "resolved": 164, "avgResponse": "9m", "satisfaction": 96 }
+  ],
+  "reviews": [
+    { "id": "r1", "author": "Jordan Lee", "company": "Northwind Outlet", "rating": 5, "comment": "Response time improved fast after enabling Elara drafts. Guests now get replies the same day.", "time": "2h ago", "avatar": "https://i.pravatar.cc/150?img=12" },
+    { "id": "r2", "author": "Priya Nair", "company": "Vertex Kitchen", "rating": 4, "comment": "Benchmarking helped us spot our low weekend ratings and fix staffing gaps quickly.", "time": "5h ago", "avatar": "https://i.pravatar.cc/150?img=45" },
+    { "id": "r3", "author": "Marcus Webb", "company": "Brightwave Cafe", "rating": 5, "comment": "Quarterly report made executive reviews easy. Clear priorities, clear accountability.", "time": "1d ago", "avatar": "https://i.pravatar.cc/150?img=33" },
+    { "id": "r4", "author": "Sofia Rossi", "company": "Lumina Bistro", "rating": 4, "comment": "Approval workflow is smooth, and brand tone stays consistent across all responses.", "time": "2d ago", "avatar": "https://i.pravatar.cc/150?img=5" }
+  ],
+  "notifications": [
+    { "id": "n1", "type": "success", "title": "SRS increased", "message": "Downtown outlet improved from 74 to 78 this week.", "time": "3m ago", "read": false },
+    { "id": "n2", "type": "info", "title": "Benchmark report ready", "message": "Peer benchmarking update is available for this month.", "time": "27m ago", "read": false },
+    { "id": "n3", "type": "warning", "title": "SLA risk detected", "message": "17 negative reviews are nearing response deadline.", "time": "1h ago", "read": false },
+    { "id": "n4", "type": "message", "title": "New 5-star review", "message": "Priya Nair praised your fast resolution and staff behavior.", "time": "5h ago", "read": true },
+    { "id": "n5", "type": "info", "title": "Quarterly report published", "message": "Q2 reputation summary has been sent to leadership.", "time": "1d ago", "read": true }
+  ],
+  "recentActivity": [
+    { "id": "a1", "type": "response", "contact": "Jordan Lee", "company": "Northwind Outlet", "message": "Manager approved Elara draft response", "time": "2m ago" },
+    { "id": "a2", "type": "benchmark", "contact": "Priya Nair", "company": "Vertex Kitchen", "message": "Category rank moved from #6 to #4", "time": "11m ago" },
+    { "id": "a3", "type": "review", "contact": "Marcus Webb", "company": "Brightwave Cafe", "message": "New 4-star review captured", "time": "24m ago" },
+    { "id": "a4", "type": "survey", "contact": "Sofia Rossi", "company": "Lumina Bistro", "message": "In-app sentiment survey submitted", "time": "38m ago" },
+    { "id": "a5", "type": "report", "contact": "Daniel Kim", "company": "Nimbus Deli", "message": "Quarterly report shared with region lead", "time": "1h ago" }
+  ]
+}
