@@ -51,4 +51,21 @@ src/
 - Content lives in `src/data/*.json` — components never hardcode copy, so it's CMS-ready.
 - Icons are referenced by string name and resolved via `src/lib/icons.js` to keep the bundle tree-shakeable.
 - Compose class names with `cn()` from `src/lib/cn.js`.
-```
+
+## Deploy to Cloudflare Pages
+
+This is a **static React site** — use **Cloudflare Pages**, not `npx wrangler deploy` (that is for Workers).
+
+| Setting | Value |
+| --- | --- |
+| Framework preset | None (or Vite) |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Deploy command | *(leave empty)* |
+| Node.js version | `20` or newer |
+
+Connect the GitHub repo (`work4vishwa/nrtureAI`) and Cloudflare will build and publish `dist` automatically.
+
+`public/_redirects` is included so client-side routes (`/features`, `/pricing`, etc.) work on direct navigation and refresh.
+
+No `wrangler.toml` or `wrangler.json` is required for Pages static hosting.
